@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahmoud Al-Aidaros | Resume</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#eef4fb;
+    color:#2d3748;
+    line-height:1.4;
+    padding:20px;
+}
+
+.resume{
+    max-width:1050px;
+    margin:auto;
+    background:#fff;
+    display:grid;
+    grid-template-columns:300px 1fr;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 12px 40px rgba(0,0,0,.12);
+}
+
+.left{
+    background:#0f4c81;
+    color:white;
+    padding:28px;
+}
+
+.right{
+    padding:30px 34px;
+}
+
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid rgba(255,255,255,.4);
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:46px;
+    background:white;
+    color:#0f4c81;
+}
+
+h1{
+    margin-top:18px;
+    text-align:center;
+    font-size:28px;
+    font-weight:800;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:14px;
+    opacity:.9;
+    margin-top:4px;
+}
+
+.section{
+    margin-top:26px;
+}
+
+.section h2{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:12px;
+    border-bottom:2px solid rgba(255,255,255,.25);
+    padding-bottom:6px;
+}
+
+.contact div{
+    margin-bottom:11px;
+    font-size:13px;
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+}
+
+.contact i{
+    width:18px;
+}
+
+.skill{
+    margin-bottom:12px;
+}
+
+.skill-title{
+    display:flex;
+    justify-content:space-between;
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+.bar{
+    height:7px;
+    background:rgba(255,255,255,.25);
+    border-radius:20px;
+}
+
+.fill{
+    height:100%;
+    background:#7fd3ff;
+    border-radius:20px;
+}
+
+.list{
+    list-style:none;
+}
+
+.list li{
+    margin-bottom:8px;
+    font-size:13px;
+}
+
+.right h2{
+    color:#0f4c81;
+    font-size:18px;
+    margin-bottom:10px;
+    border-left:5px solid #0f4c81;
+    padding-left:10px;
+}
+
+.summary{
+    font-size:14px;
+    text-align:justify;
+    margin-bottom:20px;
+}
+
+.education{
+    margin-bottom:18px;
+}
+
+.education h3{
+    font-size:16px;
+}
+
+.education p{
+    font-size:13px;
+}
+
+.project{
+    margin-bottom:14px;
+}
+
+.project h3{
+    font-size:15px;
+    color:#1a365d;
+}
+
+.project ul{
+    margin-left:18px;
+    margin-top:4px;
+}
+
+.project li{
+    font-size:13px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.tag{
+    background:#eaf4ff;
+    color:#0f4c81;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.course-list{
+    columns:2;
+    font-size:13px;
+    margin-left:18px;
+}
+
+.course-list li{
+    margin-bottom:5px;
+}
+
+@media(max-width:900px){
+
+.resume{
+grid-template-columns:1fr;
+}
+
+.course-list{
+columns:1;
+}
+
+.grid{
+grid-template-columns:1fr;
+}
+
+.left{
+text-align:left;
+}
+
+.avatar{
+margin:auto;
+}
+
+}
+
+@media print{
+
+body{
+background:white;
+padding:0;
+}
+
+.resume{
+box-shadow:none;
+border-radius:0;
+max-width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="resume">
+
+<!-- LEFT SIDE -->
+
+<div class="left">
+
+<div class="avatar">
+<i class="fa-solid fa-user"></i>
+</div>
+
+<h1>Mahmoud Al-Aidaros</h1>
+
+<div class="subtitle">
+Computer Science Engineering Student
+</div>
+
+<div class="section">
+
+<h2><i class="fa-solid fa-address-card"></i> Contact</h2>
+
+<div class="contact">
+
+<div><i class="fa-solid fa-envelope"></i> your.email@example.com</div>
+
+<div><i class="fa-solid fa-phone"></i> +91-XXXXXXXXXX</div>
+
+<div><i class="fa-solid fa-location-dot"></i> Pune, India</div>
+
+<div><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourprofile</div>
+
+<div><i class="fa-brands fa-github"></i> github.com/yourusername</div>
+
+<div><i class="fa-solid fa-globe"></i> portfolio.com</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
+
+<div class="skill">
+<div class="skill-title"><span>C / C++</span><span>90%</span></div>
+<div class="bar"><div class="fill" style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>Java</span><span>80%</span></div>
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>Python</span><span>82%</span></div>
+<div class="bar"><div class="fill" style="width:82%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>JavaScript</span><span>88%</span></div>
+<div class="bar"><div class="fill" style="width:88%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>HTML / CSS</span><span>95%</span></div>
+<div class="bar"><div class="fill" style="width:95%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>Node.js / Express</span><span>85%</span></div>
+<div class="bar"><div class="fill" style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>MongoDB</span><span>80%</span></div>
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-title"><span>Docker / AWS</span><span>78%</span></div>
+<div class="bar"><div class="fill" style="width:78%"></div></div>
+</div>
+
+</div>
+
+<div class="section">
+
+<h2><i class="fa-solid fa-language"></i> Languages</h2>
+
+<ul class="list">
+<li>Arabic — Native</li>
+<li>English — Professional</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2><i class="fa-solid fa-star"></i> Strengths</h2>
+
+<ul class="list">
+<li>Quick Learner</li>
+<li>Problem Solving</li>
+<li>Teamwork</li>
+<li>Communication</li>
+<li>Adaptability</li>
+<li>Time Management</li>
+</ul>
+
+</div>
+
+</div>
+
+<!-- RIGHT SIDE -->
+
+<div class="right">
+
+<section>
+
+<h2>Professional Summary</h2>
+
+<p class="summary">
+Computer Science Engineering student pursuing a Bachelor of Technology at Symbiosis Institute of Technology, Pune. Passionate about software engineering, full-stack web development, cloud computing, DevOps, cybersecurity, databases, and problem solving. Experienced in building practical academic projects using modern technologies while continuously expanding technical knowledge through hands-on learning. Seeking internship opportunities to contribute technical skills and grow as a software engineer.
+</p>
+
+</section>
+
+<section>
+
+<h2>Education</h2>
+
+<div class="education">
+
+<h3>Bachelor of Technology (B.Tech)</h3>
+
+<p><strong>Computer Science and Engineering</strong></p>
+
+<p>Symbiosis Institute of Technology (SIT), Pune</p>
+
+<p>Batch: 2023 – 2027</p>
+
+<p>Nationality: Yemeni | Date of Birth: 01 January 2003</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Academic Projects</h2>
+
+<div class="project">
+
+<h3>Fuel Station Management System</h3>
+
+<ul>
+<li>Developed a full-stack web application using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.</li>
+<li>Implemented authentication, branch management, fuel tracking, customer feedback, and database integration.</li>
+</ul>
+
+</div>
+
+<div class="project">
+
+<h3>Dockerized Angular Application</h3>
+
+<ul>
+<li>Containerized an Angular application using Docker and Docker Compose.</li>
+<li>Configured separate development and production environments.</li>
+</ul>
+
+</div>
+
+<div class="project">
+
+<h3>AWS Website Hosting</h3>
+
+<ul>
+<li>Hosted and deployed a static website on an AWS EC2 instance.</li>
+</ul>
+
+</div>
+
+</section>
+
+<div class="grid">
+
+<section>
+
+<h2>Coursework</h2>
+
+<ul class="course-list">
+<li>Data Structures</li>
+<li>Algorithms</li>
+<li>Database Management Systems</li>
+<li>Operating Systems</li>
+<li>Computer Networks</li>
+<li>Cloud Computing</li>
+<li>Cyber Security</li>
+<li>Software Engineering</li>
+<li>Compiler Design</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Tools & Technologies</h2>
+
+<div class="tags">
+
+<div class="tag">Git</div>
+
+<div class="tag">GitHub</div>
+
+<div class="tag">Docker</div>
+
+<div class="tag">Docker Compose</div>
+
+<div class="tag">MongoDB</div>
+
+<div class="tag">Node.js</div>
+
+<div class="tag">Express.js</div>
+
+<div class="tag">Angular</div>
+
+<div class="tag">React</div>
+
+<div class="tag">AWS EC2</div>
+
+<div class="tag">VS Code</div>
+
+<div class="tag">REST APIs</div>
+
+<div class="tag">JSON</div>
+
+<div class="tag">Linux</div>
+
+<div class="tag">Windows</div>
+
+</div>
+
+</section>
+
+</div>
+
+<section style="margin-top:20px;">
+
+<h2>Areas of Interest</h2>
+
+<div class="tags">
+
+<div class="tag">Software Development</div>
+
+<div class="tag">Artificial Intelligence</div>
+
+<div class="tag">Cloud Computing</div>
+
+<div class="tag">Cybersecurity</div>
+
+<div class="tag">Open Source</div>
+
+<div class="tag">Web Development</div>
+
+</div>
+
+</section>
+
+</div>
+
+</div>
+
+</body>
+</html>
