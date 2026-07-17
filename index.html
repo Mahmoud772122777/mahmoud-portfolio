@@ -52,15 +52,17 @@ body{
 .avatar{
     width:120px;
     height:120px;
-    border-radius:50%;
-    border:5px solid rgba(255,255,255,.4);
     margin:auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:46px;
+    border-radius:50%;
+    overflow:hidden;
+    border:5px solid rgba(255,255,255,.35);
     background:white;
-    color:#0f4c81;
+}
+
+.avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 h1{
@@ -100,6 +102,17 @@ h1{
 
 .contact i{
     width:18px;
+}
+
+.contact a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.contact a:hover{
+    color:#7fd3ff;
+    text-decoration:underline;
 }
 
 .skill{
@@ -284,7 +297,7 @@ max-width:100%;
 <div class="left">
 
 <div class="avatar">
-<i class="fa-solid fa-user"></i>
+    <img src="images/profile.jpg" alt="Mahmoud Al-Aidaros">
 </div>
 
 <h1>Mahmoud Al-Aidaros</h1>
@@ -299,17 +312,37 @@ Computer Science Engineering Student
 
 <div class="contact">
 
-<div><i class="fa-solid fa-envelope"></i> mahm777d@gmail.com</div>
+<div>
+    <i class="fa-solid fa-envelope"></i>
+    <a href="mailto:your@email.com">mahm777d@gmail.com</a>
+</div>
 
-<div><i class="fa-solid fa-phone"></i> +91-7385530998</div>
-
+<div>
+    <i class="fa-solid fa-phone"></i>
+    <a href="tel:+91XXXXXXXXXX">+91 7385530998</a>
+</div>
 <div><i class="fa-solid fa-location-dot"></i> Pune, India</div>
 
-<div><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourprofile</div>
+<div>
+    <i class="fa-brands fa-linkedin"></i>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">
+        linkedin.com/in/yourprofile
+    </a>
+</div>
 
-<div><i class="fa-brands fa-github"></i> github.com/Mahmoud772122777</div>
+<div>
+    <i class="fa-brands fa-github"></i>
+    <a href="https://github.com/Mahmoud772122777" target="_blank">
+        github.com/Mahmoud772122777
+    </a>
+</div>
 
-<div><i class="fa-solid fa-globe"></i> mahmoud772122777.github.io/mahmoud-portfolio</div>
+<div>
+    <i class="fa-solid fa-globe"></i>
+    <a href="https://mahmoud772122777.github.io/mahmoud-portfolio/" target="_blank">
+        Portfolio Website
+    </a>
+</div>
 
 </div>
 
