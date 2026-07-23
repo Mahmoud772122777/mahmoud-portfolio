@@ -1,0 +1,189 @@
+{
+  "personalInfo": {
+    "name": "Mahmoud Al-Aidaros",
+    "dateOfBirth": "2003-01-01",
+    "nationality": "Yemeni",
+    "location": "Pune, India",
+    "title": "Computer Science Engineering Student",
+    "email": "mahm777d@gmail.com",
+    "phone": "+91 7385530998",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/mahmoud-al-aidaros-8b8726285/",
+      "display": "Mahmoud Al-Aidaros"
+    },
+    "github": {
+      "url": "https://github.com/Mahmoud772122777",
+      "display": "Mahmoud772122777"
+    },
+    "portfolio": {
+      "url": "https://mahmoud772122777.github.io/mahmoud-portfolio/",
+      "display": "My Portfolio"
+    },
+    "photo": "images/profile.jpg"
+  },
+
+  "profileSummary": "Computer Science Engineering student passionate about software development, web development, cloud computing, DevOps, cybersecurity, databases, and problem solving. Experienced in building practical academic projects and continuously improving technical skills through hands-on learning.",
+
+  "education": {
+    "degree": "Bachelor of Technology (B.Tech)",
+    "branch": "Computer Science and Engineering",
+    "institution": "Symbiosis Institute of Technology (SIT), Pune",
+    "batch": "2023-2027"
+  },
+
+  "technicalSkills": {
+    "languages": [
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "web": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "frameworks": [
+      "Angular (Basic)",
+      "React (Basic)"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js"
+    ],
+    "database": [
+      "MongoDB"
+    ],
+    "cloudDevOps": [
+      "Docker",
+      "Docker Compose",
+      "AWS EC2",
+      "Git",
+      "GitHub"
+    ],
+    "operatingSystems": [
+      "Windows",
+      "Linux"
+    ],
+    "other": [
+      "REST APIs",
+      "JSON",
+      "VS Code"
+    ]
+  },
+
+  "skillLevels": {
+    "C/C++": 90,
+    "Java": 80,
+    "Python": 82,
+    "JavaScript": 88,
+    "HTML/CSS": 95,
+    "Node.js/Express": 85,
+    "MongoDB": 80,
+    "Docker/AWS": 78
+  },
+
+  "projects": [
+    {
+      "title": "Fuel Station Management System",
+      "description": [
+        "Developed a full-stack web application using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.",
+        "Implemented authentication, branch management, fuel tracking, customer feedback, and database integration."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Dockerized Angular Application",
+      "description": [
+        "Containerized an Angular application using Docker and Docker Compose.",
+        "Configured development and production environments."
+      ],
+      "technologies": [
+        "Angular",
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    {
+      "title": "AWS Website Hosting",
+      "description": [
+        "Hosted a static website on an AWS EC2 instance."
+      ],
+      "technologies": [
+        "AWS EC2"
+      ]
+    }
+  ],
+
+  "coursework": [
+    "Data Structures",
+    "Algorithms",
+    "Database Management Systems",
+    "Operating Systems",
+    "Computer Networks",
+    "Cloud Computing",
+    "Cyber Security",
+    "Software Engineering",
+    "Compiler Design"
+  ],
+
+  "tools": [
+    "Git",
+    "GitHub",
+    "Docker",
+    "Docker Compose",
+    "MongoDB",
+    "Node.js",
+    "Express.js",
+    "Angular",
+    "React",
+    "AWS EC2",
+    "VS Code",
+    "REST APIs",
+    "JSON",
+    "Linux",
+    "Windows"
+  ],
+
+  "strengths": [
+    "Quick Learner",
+    "Problem Solving",
+    "Teamwork",
+    "Communication",
+    "Adaptability",
+    "Time Management"
+  ],
+
+  "languages": [
+    {
+      "language": "Arabic",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    }
+  ],
+
+  "interests": [
+    "Software Development",
+    "Artificial Intelligence",
+    "Cloud Computing",
+    "Cybersecurity",
+    "Open Source",
+    "Web Development"
+  ],
+
+  "documents": {
+    "resumePdf": "resume.pdf",
+    "resumeWebsite": "https://mahmoud772122777.github.io/mahmoud-portfolio/"
+  }
+}
