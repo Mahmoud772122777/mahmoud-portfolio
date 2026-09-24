@@ -116,27 +116,30 @@ h1{
     text-decoration:underline;
 }
 
-.skill{
-    margin-bottom:12px;
+.skill-category{
+    margin-bottom:16px;
 }
 
-.skill-title{
-    display:flex;
-    justify-content:space-between;
+.skill-category h3{
     font-size:12px;
-    margin-bottom:5px;
+    margin-bottom:8px;
+    color:#d9f3ff;
 }
 
-.bar{
-    height:7px;
-    background:rgba(255,255,255,.25);
-    border-radius:20px;
+.skill-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
 }
 
-.fill{
-    height:100%;
-    background:#7fd3ff;
-    border-radius:20px;
+.skill-tag{
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.25);
+    color:white;
+    padding:4px 7px;
+    border-radius:14px;
+    font-size:11px;
+    line-height:1.25;
 }
 
 .list{
@@ -176,6 +179,13 @@ h1{
 
 .project{
     margin-bottom:14px;
+}
+
+.featured-project{
+    background:#f5f9fd;
+    border-left:4px solid #0f4c81;
+    padding:12px 14px 2px;
+    margin-bottom:16px;
 }
 
 .project h3{
@@ -309,10 +319,6 @@ max-width:100%;
 
 <body>
 
-<a class="agent-link" href="https://elevenlabs.io/app/talk-to?agent_id=agent_3601kxqs9cecfm39pd5yvy7d3afn&branch_id=agtbrch_5401kxqs9d7mfrv91b9rcg32qaxk" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-headset"></i>
-  <span>Talk to my agent</span>
-</a>
 
 <div class="resume">
 
@@ -383,44 +389,92 @@ Computer Science Engineering Student
 
 <h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
 
-<div class="skill">
-<div class="skill-title"><span>C / C++</span><span>90%</span></div>
-<div class="bar"><div class="fill" style="width:90%"></div></div>
+<div class="skill-category">
+<h3>Programming</h3>
+<div class="skill-tags">
+<span class="skill-tag">C</span>
+<span class="skill-tag">C++</span>
+<span class="skill-tag">Java</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">JavaScript</span>
+<span class="skill-tag">R</span>
+<span class="skill-tag">SQL</span>
+</div>
 </div>
 
-<div class="skill">
-<div class="skill-title"><span>Java</span><span>80%</span></div>
-<div class="bar"><div class="fill" style="width:80%"></div></div>
+<div class="skill-category">
+<h3>Web Development</h3>
+<div class="skill-tags">
+<span class="skill-tag">HTML</span>
+<span class="skill-tag">CSS</span>
+<span class="skill-tag">React</span>
+<span class="skill-tag">Node.js</span>
+<span class="skill-tag">Express.js</span>
+<span class="skill-tag">Flask</span>
+</div>
 </div>
 
-<div class="skill">
-<div class="skill-title"><span>Python</span><span>82%</span></div>
-<div class="bar"><div class="fill" style="width:82%"></div></div>
+<div class="skill-category">
+<h3>AI &amp; Machine Learning</h3>
+<div class="skill-tags">
+<span class="skill-tag">Generative AI</span>
+<span class="skill-tag">Gemini</span>
+<span class="skill-tag">Machine Learning</span>
+<span class="skill-tag">Scikit-learn</span>
+<span class="skill-tag">AI Assistants</span>
+<span class="skill-tag">AI Recommendations</span>
+<span class="skill-tag">AI Text Generation</span>
+<span class="skill-tag">AI Review Summarization</span>
+</div>
 </div>
 
-<div class="skill">
-<div class="skill-title"><span>JavaScript</span><span>88%</span></div>
-<div class="bar"><div class="fill" style="width:88%"></div></div>
+<div class="skill-category">
+<h3>Databases</h3>
+<div class="skill-tags">
+<span class="skill-tag">MySQL</span>
+<span class="skill-tag">MongoDB</span>
+<span class="skill-tag">Mongoose</span>
+<span class="skill-tag">SQL</span>
+<span class="skill-tag">Database Design</span>
+<span class="skill-tag">ER Modeling</span>
+</div>
 </div>
 
-<div class="skill">
-<div class="skill-title"><span>HTML / CSS</span><span>95%</span></div>
-<div class="bar"><div class="fill" style="width:95%"></div></div>
+<div class="skill-category">
+<h3>DevOps &amp; Systems</h3>
+<div class="skill-tags">
+<span class="skill-tag">Git</span>
+<span class="skill-tag">GitHub</span>
+<span class="skill-tag">Linux</span>
+<span class="skill-tag">Ubuntu</span>
+<span class="skill-tag">WSL</span>
+<span class="skill-tag">Shell Scripting</span>
+<span class="skill-tag">GCC</span>
+<span class="skill-tag">DevOps Fundamentals</span>
+</div>
 </div>
 
-<div class="skill">
-<div class="skill-title"><span>Node.js / Express</span><span>85%</span></div>
-<div class="bar"><div class="fill" style="width:85%"></div></div>
+<div class="skill-category">
+<h3>IoT &amp; Networking</h3>
+<div class="skill-tags">
+<span class="skill-tag">Arduino</span>
+<span class="skill-tag">NodeMCU</span>
+<span class="skill-tag">ThingSpeak</span>
+<span class="skill-tag">Cisco Packet Tracer</span>
+<span class="skill-tag">Computer Networking</span>
+</div>
 </div>
 
-<div class="skill">
-<div class="skill-title"><span>MongoDB</span><span>80%</span></div>
-<div class="bar"><div class="fill" style="width:80%"></div></div>
+<div class="skill-category">
+<h3>Tools &amp; Design</h3>
+<div class="skill-tags">
+<span class="skill-tag">VS Code</span>
+<span class="skill-tag">Google Colab</span>
+<span class="skill-tag">Figma</span>
+<span class="skill-tag">MongoDB Compass</span>
+<span class="skill-tag">RStudio</span>
+<span class="skill-tag">Apify</span>
 </div>
-
-<div class="skill">
-<div class="skill-title"><span>Docker / AWS</span><span>78%</span></div>
-<div class="bar"><div class="fill" style="width:78%"></div></div>
 </div>
 
 </div>
@@ -481,22 +535,33 @@ Computer Science Engineering student pursuing a Bachelor of Technology at Symbio
 
 <p>Batch: 2023 – 2027</p>
 
-<p>Nationality: Yemeni | Date of Birth: 01 January 2003</p>
-
 </div>
 
 </section>
 
 <section>
 
-<h2>Academic Projects</h2>
+<h2>Projects</h2>
+
+<div class="project featured-project">
+
+<h3>IntelliShop — AI-Powered Smart E-commerce Platform</h3>
+
+<ul>
+<li>B.Tech academic group project: built a full-stack e-commerce web application using the MERN stack with Generative AI capabilities.</li>
+<li>Implemented an AI Shopping Assistant for product-related user interactions and AI-powered product recommendations.</li>
+<li>Implemented AI Product Description Generation for e-commerce product content.</li>
+<li>Implemented an AI Review Summarizer that analyzes stored product reviews and generates a concise summary, key pros, key cons, and recommendation.</li>
+</ul>
+
+</div>
 
 <div class="project">
 
 <h3>Fuel Station Management System</h3>
 
 <ul>
-<li>Developed a full-stack web application using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.</li>
+<li>Built a full-stack web application using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.</li>
 <li>Implemented authentication, branch management, fuel tracking, customer feedback, and database integration.</li>
 </ul>
 
@@ -507,7 +572,7 @@ Computer Science Engineering student pursuing a Bachelor of Technology at Symbio
 <h3>Dockerized Angular Application</h3>
 
 <ul>
-<li>Containerized an Angular application using Docker and Docker Compose.</li>
+<li>Containerized an Angular application with Docker and Docker Compose.</li>
 <li>Configured separate development and production environments.</li>
 </ul>
 
